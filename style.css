@@ -8,6 +8,16 @@ h1 {
 }
 
 h2 {
+  display: block;
+
+  font-weight: bold;
+}
+header {
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+}
+header h2 {
   text-align: center;
   padding: 5px;
   background-color: yellow;
@@ -21,9 +31,19 @@ section {
   background-color: grey;
 }
 
+.bild {
+  width: 45%;
+  margin: 0 auto;
+  display: block;
+}
+
+ul {
+  display: block;
+}
+
 ul li {
   list-style: none;
-  display: inline-block;
+  display: block;
   padding: 10px;
   text-align: center;
 }
@@ -39,17 +59,20 @@ img {
   display: block;
   margin: auto;
   /* Margin auto verschiebt das Bild? */
-  border-left: solid red;
+  border-left: 12px solid red;
 }
 
 footer p {
   background-color: yellow;
-  display: block;
-  margin: auto;
-  padding: 8px;
+  padding: 10px;
+  text-align: center;
 }
-
 aside {
-  width: 300px;
+  width: 450px;
   margin: 0 auto;
+  display: block;
+  text-align: center;
+  background-color: whitesmoke;
+  border: 15px 12px 15px;
+  padding: 22px;
 }
