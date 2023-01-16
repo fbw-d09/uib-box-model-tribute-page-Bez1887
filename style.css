@@ -1,0 +1,78 @@
+body {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+}
+
+h2 {
+  display: block;
+
+  font-weight: bold;
+}
+header {
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+}
+header h2 {
+  text-align: center;
+  padding: 5px;
+  background-color: yellow;
+  display: block;
+}
+
+section {
+  display: block;
+  width: 100%;
+
+  background-color: grey;
+}
+
+.bild {
+  width: 45%;
+  margin: 0 auto;
+  display: block;
+}
+
+ul {
+  display: block;
+}
+
+ul li {
+  list-style: none;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+div p {
+  text-align: center;
+  display: block;
+  padding: 8px;
+}
+
+img {
+  width: 400px;
+  display: block;
+  margin: auto;
+  /* Margin auto verschiebt das Bild? */
+  border-left: 12px solid red;
+}
+
+footer p {
+  background-color: yellow;
+  padding: 10px;
+  text-align: center;
+}
+aside {
+  width: 450px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  background-color: whitesmoke;
+  border: 15px 12px 15px;
+  padding: 22px;
+}
